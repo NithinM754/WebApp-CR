@@ -1,0 +1,144 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homepage {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  
+  
+  .main-content {
+    margin: 0 auto;
+  }
+  
+  .intro-section {
+    background-image: url(https://res.cloudinary.com/dfrc94azr/image/upload/v1695552879/3357683_tslhpo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 0.95;
+    padding: px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 110vh;
+    animation: zoomIn 7s ease-in-out infinite;
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      background-size: 100%;
+    }
+    50% {
+      background-size: 110%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+
+  .intro-message h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-right: 50vh;
+    margin-left: -10vh;
+    padding-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+.img-head {
+    margin-top: -30vh;
+    margin-left: 120vh;
+}
+.img-head p{
+    font-size: 22px;
+}
+.img-write {
+    margin-top: -36vh;
+    margin-left: 7vh;
+    width:14rem;
+    height:14rem;
+}
+.img-write p{
+    font-size: 20px;
+   
+}
+
+  .intro-message h3 {
+    font-size: 31px;
+    margin-bottom: 20px;
+    margin-top: 9vh;
+    margin-left: 80vh;
+  }
+  .intro-message li {
+    font-size: 21px;
+    margin-left: 80vh;
+  }
+  
+  .intro-buttons {
+    margin-top: 35px;
+    margin-left: 80vh;
+  }
+  
+  .intro-buttons a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 12px 24px;
+    border: 2px solid #addbe4;
+    background-color: #10aff3;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .intro-buttons a:hover {
+    background-color: #365963;
+    color: white;
+  }
+  
+  .arrow-icon {
+    font-size: 5rem;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ 
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    
+    .search-icon {
+      display: none;
+    }
+  
+    .intro-buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .intro-buttons a {
+      margin: 0 10px;
+    }
+  
+    .about-section img {
+      max-width: 100%;
+    }
+  }

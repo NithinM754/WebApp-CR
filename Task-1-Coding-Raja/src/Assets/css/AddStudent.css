@@ -1,0 +1,82 @@
+/* .mainx{ */
+     /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    /* width: 1170px;
+    margin: 0 auto;
+}
+.button.data-btn{
+    color: beige;
+} */
+
+
+
+/* AddStudent.css */
+
+.mainx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 33rem;
+  }
+  
+  .data-content {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .data-content:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .data-title {
+    color: #25db00;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .data-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .data-input:focus {
+    border-color: #25db00;
+  }
+  
+  .data-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #25db00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .data-btn:hover {
+    background-color: #1fa700;
+  }
+  
+  .route-btn-1 {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .route-btn-1:hover {
+    color: #25db00;
+  }
+  
