@@ -1,0 +1,328 @@
+.heading{
+    background-color: rgb(4, 0, 0);
+    font-size: 2rem;
+    padding-left: 0px;
+    color: white;
+}
+
+
+.username-color{
+    color:rgb(241, 240, 243);
+}
+
+.overall{
+  background-color: whitesmoke;
+}
+
+.about-section {
+    background-color: whitesmoke;
+    padding: 30px 0;
+    text-align: center;
+    padding-left: 300px;
+  }
+  
+.over{
+  background-color: whitesmoke;
+}
+
+.container h2{
+  font-size: 25px;
+  padding-top :13px;
+}
+
+  .about-section h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #333; 
+    margin-left: -500px;
+  }
+  
+  .founder-card {
+    background-color: #fff;
+    width:60vh;
+    height:53vh;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: transform 0.1s ease;
+  }
+  .founder-image{
+    width:25vh;
+    height: 25vh;
+    padding: 10px;
+    margin-left: 123px ;
+    
+  }
+  .roww
+  {
+    display: flex;
+    width: 100%;
+    padding-top: 3vh;
+
+  }
+  .founder-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .founder-role {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .founder-bio {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .founder-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+    main {
+    padding: 20px;
+  }
+  
+  .about-section,
+  .mission-vision,
+  .core-values,
+  .team {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2,
+  .mission-vision h2,
+  .core-values h2,
+  .team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .mission-vision p,
+  .core-values ul,
+  .team p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .about-section,
+  .mission-vision,
+  .core-values,
+  .team {
+    margin-bottom: 30px;
+    transition: transform 1s ease;
+  }
+  
+  .about-section h2,
+  .mission-vision h2,
+  .core-values h2,
+  .team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .mission-vision p,
+  .core-values ul,
+  .team p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  .about-sectionn{
+    background-color: #f7e4e4;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease; 
+  }
+
+
+.about-section1 {
+    background-color: whitesmoke;
+    padding: 60px 0;
+    text-align: center;
+    padding-left: 300px;
+    margin-top: -170px;
+
+  }
+  .about-section1 h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333; 
+  }
+  
+  .founder-card1 {
+    background-color: #fff;
+    width:60vh;
+    height:55vh;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: transform 0.1s ease;
+  }
+  .founder-image1{
+    width:25vh;
+    height: 25vh;
+    padding: 10px;
+    margin-left: 123px
+    
+  }
+  .roww1
+  {
+    display: flex;
+    width: 100%;
+    padding-top: 3vh;
+
+  }
+  .founder-card1 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .founder-role1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .founder-bio1 {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .founder-card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about-section1,
+  .mission-vision,
+  .core-values,
+  .team {
+    margin-bottom: 30px;
+  }
+  
+  .about-section1 h2,
+  .mission-vision h2,
+  .core-values h2,
+  .team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section1 p,
+  .mission-vision p,
+  .core-values ul,
+  .team p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .about-section1,
+  .mission-vision,
+  .core-values,
+  .team {
+    margin-bottom: 30px;
+    transition: transform 1s ease;
+  }
+  
+  .about-section1 h2,
+  .mission-vision h2,
+  .core-values h2,
+  .team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section1 p,
+  .mission-vision p,
+  .core-values ul,
+  .team p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  .about-sectionn1{
+    background-color: #f7e4e4;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease; 
+  }
+
+
+.founder-button1 {
+  text-decoration: none;
+  padding: 12px 24px;
+  margin-top: 22px;
+  border: 2px solid #addbe4;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.founder-button1:hover {
+  background-color: #8fd4e7;
+  color: white;
+}
+
+.founder-button2 {
+  text-decoration: none;
+  margin-top: 22px;
+  padding: 12px 24px;
+  border: 2px solid #addbe4;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.founder-button2:hover {
+  background-color: #8fd4e7;
+  color: white;
+}
